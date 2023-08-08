@@ -3,7 +3,10 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { Button } from "reactstrap";
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 222da6c6754eabf448a3b64272e893bd7c81adf4
 const InputTodo = () => {
   const navigate = useNavigate();
 
@@ -23,8 +26,12 @@ const InputTodo = () => {
       console.error(err.message);
     }
   };
+<<<<<<< HEAD
   
  
+=======
+
+>>>>>>> 222da6c6754eabf448a3b64272e893bd7c81adf4
   return (
     <React.Fragment>
       <form
