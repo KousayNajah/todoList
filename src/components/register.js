@@ -84,7 +84,7 @@ const Register = () => {
 
       {registeredUsername  && <p>Registration successful! You can now login with the username: {registeredUsername}.</p>}
       
-      <Link to="/login" >You have an account you can log in from here </Link>  
+      <Link to="/" >You have an account you can log in from here </Link>  
  </div>
   );
 };
